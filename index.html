@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>SVG Sprites - Symbols Vs. Groups</title>
-<style type="text/css">
-  svg { width:24px; height:24px; }
-</style>
+  <meta charset="UTF-8">
+  <title>SVG Sprites - Symbols Vs. Groups</title>
+  <style type="text/css">h1 { font-size:18px; } p { width:66%; }</style>
 </head>
 <body>
+  <h1>Check out the examples Symbols Vs. Groups: </h1>
   <a href="index.symbols.html">index.symbols.html</a><br>
   <a href="index.groups.html">index.groups.html</a>
+  <br>
+  <p>Notice: The Magic happens mainly in the code of the SVG Files. The &lt;symbol&gt; tags have a viewbox directly implemented in the .svg file, so it's simpler to use anywhere on a html document with the &lt;use&gt; tag (see index.symbols.html). The group tag &lt;g&gt; doesn't have a viewBox attribute, therefore you need to define it everytime you use it in your html document (see index.groups.html), e.g. &lt;svg viewBox=...&gt;</p>
 </body>
 </html>
