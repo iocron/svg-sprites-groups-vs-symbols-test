@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG Sprites with Symbols</title>
+<style type="text/css">
+  svg { width:24px; height:24px; }
+</style>
+</head>
+<body>
+  <svg role="img" xmlns="http://www.w3.org/2000/svg">
+    <use xlink:href="./sprites.symbols.svg#icon-facebook" />
+  </svg>
+  <svg role="img" xmlns="http://www.w3.org/2000/svg">
+    <use xlink:href="./sprites.symbols.svg#icon-youtube" />
+  </svg>
+  <svg role="img" xmlns="http://www.w3.org/2000/svg">
+    <use xlink:href="./sprites.symbols.svg#icon-twitter" />
+  </svg>
+  <svg role="img" xmlns="http://www.w3.org/2000/svg">
+    <use xlink:href="./sprites.symbols.svg#icon-instagram" />
+  </svg>
+</body>
+</html>
+
+<!-- If you are using SVG 2.0 Images, then please add the
+parameter "href" in addition to xlink on the <use> tag,
+because xlink won't be supported in SVG 2.0+ anymore. -->
